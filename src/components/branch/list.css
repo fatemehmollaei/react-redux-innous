@@ -1,0 +1,57 @@
+#List{
+    display: flex;
+    margin: 5%;
+    width: 75%;
+    flex-wrap:wrap ;
+    justify-content: left;
+    align-items: center;
+}
+
+.album{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: 2%;
+}
+.title h6{
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+.title p{
+    color: rgb(162, 162, 162);
+    text-align: left;
+    margin: 0 0 0 1%;
+    font-size: 10px;
+}
+.cover{
+    max-width: 100%;
+}
+
+.imgs{
+  position: relative;
+  background-color: #1e1e1e;
+}
+
+.source{
+    position: absolute;
+    bottom: 7%;
+    right: 7%;
+    max-width: 14%;
+}
+@media only screen and (max-width:1000px) {
+    .album {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .album {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .album {
+        width: 85%;
+    }
+}

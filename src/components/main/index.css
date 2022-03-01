@@ -1,0 +1,32 @@
+#getAlbum-btn{
+    background-color: transparent;
+    border:2px solid #ffff007d;
+    color: white;
+    padding:1% 2%;
+    cursor: pointer;
+
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+#dropdown-filter{
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+  
+}
+.dropdonw-main{
+    min-width: 20%;
+}
+.dropdonw-main .Dropdown-control{
+    background-color: transparent;
+    border: 2px solid #ffff007d;
+    color: white;
+    cursor: pointer;
+}

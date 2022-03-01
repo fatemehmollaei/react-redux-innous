@@ -1,0 +1,4 @@
+export const ALBUM_START = 'ALBUM_START'
+export const ALBUM_SUCCESS = 'ALBUM_SUCCESS'
+export const ALBUM_FAIL = 'ALBUM_FAIL'
+export const ALBUM_FILTER = 'ALBUM_FILTER'
